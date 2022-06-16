@@ -37,6 +37,7 @@
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:background="@drawable/meta"
+            android:layout_marginEnd="5dp"
             app:layout_constraintStart_toStartOf="@+id/loadingLayout"
             app:layout_constraintTop_toTopOf="@+id/loadingLayout"
             app:layout_constraintBottom_toBottomOf="@+id/loadingLayout"/>
@@ -46,6 +47,8 @@
             android:layout_width="wrap_content"
             android:layout_height="20dp"
             android:text="Meta"
+            android:textSize="17dp"
+            android:layout_marginStart="5dp"
             app:layout_constraintStart_toEndOf="@+id/loadingImage"
             app:layout_constraintTop_toTopOf="@+id/loadingLayout"
             app:layout_constraintBottom_toBottomOf="@+id/loadingLayout"/>
